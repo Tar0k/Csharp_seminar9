@@ -77,7 +77,7 @@ void Task68()
     var userM = GetUserInt("m");
     var userN = GetUserInt("n");
 
-    Console.WriteLine(FunctionAckermann(userM, userN));
+    Console.WriteLine($"Результат: {FunctionAckermann(userM, userN)}");
     
     int FunctionAckermann(int m, int n)
     {
